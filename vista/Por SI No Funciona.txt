@@ -1,0 +1,20 @@
+package modelo;
+
+public abstract class Figura
+{
+    //Metodo abstracto
+    public abstract double calcularVolumen();
+    
+    public String toString()
+    {
+        return "El Volumen Del " + nombre + " Es: " + calcularVolumen();
+        
+    }
+    protected String nombre;
+    
+    //Contructor
+    public Figura(String n)
+   {
+    nombre = n;
+   }
+}
