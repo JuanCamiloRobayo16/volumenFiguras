@@ -23,7 +23,5 @@ public class Cubo extends Figura
         super(n);
         base=b;
     }
-    
-
-
 }
+

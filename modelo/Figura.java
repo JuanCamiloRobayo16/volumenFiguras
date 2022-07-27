@@ -6,18 +6,23 @@ public  class Figura
     protected double base;
     protected double radio;
     protected double altura;
-    
-    public void setAltura(double altura) 
-    {
-        this.altura = altura;
-    }
-
     protected double volumen;
     protected String resultado;
     
-    public Figura(String n) 
+    
+
+    public  Figura (String n, double b, double r, double a)
     {
+        this.nombre=n;
+        this.base=b;
+        this.radio=r;
+        this.altura=a;
     }
+    
+
+    public Figura(String n) {
+    }
+
 
     public String getNombre()
     {
@@ -52,7 +57,10 @@ public  class Figura
     {
         return altura;
     }
-
+    public void setAltura(double altura) 
+    {
+        this.altura = altura;
+    }
     public String mostrarResultado()
     {
         return this.resultado;
@@ -77,7 +85,7 @@ public  class Figura
             volumen = (Math.PI*Math.pow(radio,2)*altura)/3;
         }
         
-        return volumen;
+        return volumen ;
     }
     
 

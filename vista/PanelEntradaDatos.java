@@ -123,7 +123,6 @@ public class PanelEntradaDatos extends JPanel
     {
         tfb.setText("");
         tfr.setText("");
-        tfn.setText("");
         tfh.setText("");
         
     }

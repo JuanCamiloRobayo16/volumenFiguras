@@ -39,9 +39,9 @@ public class PanelResultados extends JPanel
 
     }
     // metodo de acceso a la informacion
-    public void mostrarResultado(String nombre,double calcularVolumen,double radio, double altura)
+    public void mostrarResultado(String nombre,double volumen,double radio, double altura,double calcularVolumen)
     {
-        taResultado.setText("La figura : " + nombre + "Tiene un volumen De: " + calcularVolumen);
+        taResultado.setText("La figura : " + nombre + " Tiene un volumen De: " + calcularVolumen );
 
     }
 
